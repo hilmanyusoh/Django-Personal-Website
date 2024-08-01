@@ -154,4 +154,13 @@ span {
 }
 img:hover {
     transform: scaleX(-1);
-  }
+}
+
+::-webkit-slider-thumb {
+    background-color: rgb(47, 132, 252);
+}
+
+::-webkit-scrollbar-track{
+    background-color: black;
+    width: 50px;
+}
