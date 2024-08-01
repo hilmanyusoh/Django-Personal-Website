@@ -6,30 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hilman</title>
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo"><span>Hil</span>man</a>
+        <a href="#" class="logo"><span>Port</span>folio</a>
 
         <nav class="navbar">
-            <a href="#" class="active"> Home </a>
+            <a href="#" class="active">Home</a>
             <a href="#">About</a>
             <a href="#">Academic Project</a>
             <a href="#">Activity</a>
-
         </nav>
 
-        <a href="#" class="contact">Contat Me</a>   
+        <a href="#" class="contact">Contact Me</a>   
     </header>
 
     <section class="home">
-        <div class="home-content"></div>
-        <h3>Hello</h3>
-
-        ้
-
+        <div class="home-content">
+            <h3>HELLO!</h3>
+            <h1>I'm <span>Hilman</span><br> Data Science and Analytics </h1>
+            <p>
+                My name is Hilman Yusoh, I am a 3rd year student of Data Science and Analytics at Fatoni University.
+            </p>
+            
+            <div class="btn-box">
+                <button class="btn-1">Hire me</button>
+                <button class="btn-2">Project</button>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="{% static 'img/image1.png' %}" alt="Profile Image">
+        </div>
     </section>
-
 </body>
 </html>

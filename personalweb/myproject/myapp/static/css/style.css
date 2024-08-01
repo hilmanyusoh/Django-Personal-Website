@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-decoration: none;
-    list-style: none ;
+    list-style: none;
 }
 
 .header {
@@ -19,15 +19,15 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 .logo {
     font-size: 25px;
     color: white;
     font-weight: 600;
-    transition: 0.3 ease;
+    transition: 0.3s ease;
 }
-
 
 span {
     color: rgb(47, 132, 252);
@@ -35,18 +35,23 @@ span {
 
 .logo:hover {
     color: rgb(47, 132, 252);
-    text-shadow: 0 0 25px rgb(47, 132, 252),0 0 50px rgb(47, 132, 252);
+    text-shadow: 0 0 25px rgb(47, 132, 252), 0 0 50px rgb(47, 132, 252);
     transform: scale(1.1);
 }
 
-
-.navbar a{
+.navbar a {
     font-size: 18px;
     color: white;
     font-weight: 500;
     margin: 0 20px;
     border-bottom: 3px solid transparent;
     transition: 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: rgb(47, 132, 252);
+    border-bottom: 3px solid rgb(47, 132, 252);
 }
 
 .contact {
@@ -67,3 +72,86 @@ span {
     color: white;
 }
 
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+
+.home-content {
+    max-width: 800px;
+}
+
+.home-content h3 {
+    font-size: 42px;
+}
+
+.home-content h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.home-content p {
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+
+.btn-box {
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+
+.btn-1 {
+    padding: 15px 28px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.btn-2 {
+    padding: 15px 28px;
+    background-color: rgb(47, 132, 252);
+    color: white;
+    border: 3px solid black;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-2:hover {
+    background-color: white;
+    color: rgb(47, 132, 252);
+}
+
+.img-box {
+    max-width: 400px; /* Adjust to the desired size */
+}
+
+.img-box img {
+    width: 100%; /* Ensure the image fits within the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: Add rounded corners */
+}
+img:hover {
+    transform: scaleX(-1);
+  }
