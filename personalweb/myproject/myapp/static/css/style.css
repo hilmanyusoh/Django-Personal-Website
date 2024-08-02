@@ -148,7 +148,7 @@ span {
 }
 
 .img-box img {
-    width: 100%; /* Ensure the image fits within the container */
+    width: 150%; /* Ensure the image fits within the container */
     height: auto; /* Maintain aspect ratio */
     border-radius: 50%; /* Optional: Add rounded corners */
 }
@@ -164,3 +164,40 @@ img:hover {
     background-color: black;
     width: 50px;
 }
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 10%;  
+    gap: 10em;
+    background: black;
+}
+
+.about-img {
+    max-width: 400px;
+}
+
+.about-img img{
+    position: relative;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.about-content h2{
+    text-align: left;
+    color: white;
+    font-size: 42px;
+}
+
+.about-content h3{
+    font-size: 60px;
+    color: white;   
+}
+
+.about-content p{
+    color: white;
+    font-size: 20px;
+    margin: 2em;
+}
+
