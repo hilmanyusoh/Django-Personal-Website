@@ -38,7 +38,7 @@ span {
 }
 
 .logo:hover {
-    text-shadow: 0 0 25px rgb(47, 132, 252), 0 0 50px rgb(47, 132, 252);
+    color: rgb(3, 194, 3);
     text-shadow: 0 0 25px rgb(3, 194, 3), 0 0 50px rgb(3, 194, 3);
     transform: scale(1.1);
 }
