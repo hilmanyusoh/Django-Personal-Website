@@ -144,7 +144,7 @@ span {
 }
 
 .img-box {
-    max-width: 400px; /* Adjust to the desired size */
+    max-width: 300px; /* Adjust to the desired size */
 }
 
 .img-box img {
@@ -165,7 +165,7 @@ img:hover {
     width: 50px;
 }
 
-.about{
+.about {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,12 +174,22 @@ img:hover {
     background: black;
 }
 
-.about-img img{
-    position: relative;
-    width: 550px;
-    box-shadow: 0 0 25px rgb(47, 132, 252) , 0 0 50px rgb(47, 132, 252);
+.about-img {
+    width: 400px;
+    height: 400px; /* Ensure the container is square to maintain the circle shape */
     border-radius: 50%;
+    overflow: hidden; /* Ensures the image fits within the circle */
+    border: 5px solid black; /* Adds a black border around the circle */
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5); /* Optional: Adds shadow for depth */
 }
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+}
+
+
 
 .about-content h2{
     text-align: left;
