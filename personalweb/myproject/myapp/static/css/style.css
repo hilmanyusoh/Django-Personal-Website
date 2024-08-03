@@ -174,14 +174,10 @@ img:hover {
     background: black;
 }
 
-.about-img {
-    max-width: 400px;
-    box-shadow: rgb(47, 132, 252);
-}
-
 .about-img img{
     position: relative;
-    width: 350px;
+    width: 550px;
+    box-shadow: 0 0 25px rgb(47, 132, 252) , 0 0 50px rgb(47, 132, 252);
     border-radius: 50%;
 }
 
@@ -192,13 +188,13 @@ img:hover {
 }
 
 .about-content h3{
-    font-size: 60px;
+    font-size: 62px;
     color: white;   
 }
 
 .about-content p{
     color: white;
     font-size: 20px;
-    margin: 2em;
+    margin: 2em 0 3em;
 }
 
