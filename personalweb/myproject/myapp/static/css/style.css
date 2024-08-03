@@ -176,6 +176,7 @@ img:hover {
 
 .about-img {
     max-width: 400px;
+    box-shadow: rgb(47, 132, 252);
 }
 
 .about-img img{
