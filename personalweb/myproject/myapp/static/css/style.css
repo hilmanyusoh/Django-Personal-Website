@@ -160,6 +160,7 @@ img:hover {
     transform: scaleX(-1);
 }
 
+
 ::-webkit-slider-thumb {
     background-color: rgb(3, 194, 3);
 }
