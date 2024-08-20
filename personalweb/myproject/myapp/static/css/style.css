@@ -241,3 +241,23 @@ img:hover {
     background-color: black;
 }
 
+.footer .socail{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.footer .socail a{
+    font-size: 24px;
+    color: white;
+    border: 2px sold rgb(3, 194, 3);
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: inset 0 0 10px rgb(3, 194, 3);
+
+}
