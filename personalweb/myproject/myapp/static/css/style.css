@@ -225,10 +225,11 @@ img:hover {
 .contact-form form textarea {
     width: 100%;
     padding: 1.5em;
-    font-size: 18 px;
+    font-size: 18px;
     color: black;
     background: rgb(241,241,241);
     border-radius: .8rem;
     margin: 1rem 0;
     resize: none;
 }
+
