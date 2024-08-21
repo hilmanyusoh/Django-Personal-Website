@@ -241,7 +241,7 @@ img:hover {
     background-color: black;
 }
 
-.footer .socail{
+.footer .social{
     text-align: center;
     padding-bottom: 25px;
     color: white;
@@ -262,8 +262,8 @@ img:hover {
     transition: 0.3s ease;
 }
 
-.footer .social a:hover {
-    transform:scale(1.2)translate(-10px);
+.footer .social a:hover{
+    transform: scale(1.2)translateY (-10px);
     color: rgb(3, 194, 3);
     border: 2px solid rgb(3, 194, 3);
 }
@@ -283,7 +283,7 @@ footer.ul {
     transition: 0.3s ease;
 }
 
-.footer ul li a:hover {
+.footer ul li a:hover{
     border-bottom: 3px solid rgb(3, 194, 3);
 }
 
@@ -292,7 +292,7 @@ footer.ul {
     padding: 0 15px;
 }
 
-.footer .copyright {
+.footer .copyright{
     margin-top: 15px;
     text-align: center;
     font-size: 12px;
