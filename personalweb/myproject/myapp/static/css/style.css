@@ -224,8 +224,8 @@ img:hover {
 .contact-form form .input-box input,
 .contact-form form textarea {
     width: 100%;
-    padding: 1.5em;
-    font-size: 18px;
+    padding: 1em;
+    font-size: 15px;
     color: black;
     background: rgb(241,241,241);
     border-radius: .8rem;
@@ -268,7 +268,7 @@ img:hover {
     border: 2px solid rgb(3, 194, 3);
 }
 
-footer.ul {
+.footer ul{
     margin-top: 0;
     padding: 0;
     font-size: 18px;
@@ -298,4 +298,9 @@ footer.ul {
     font-size: 12px;
     color: white ;
 
+}
+
+.footer p{
+    text-align: center;
+    padding: 15px;
 }
