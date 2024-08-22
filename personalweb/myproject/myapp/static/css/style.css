@@ -7,10 +7,7 @@
     list-style: none;
 }
 
-/*rgb(47, 132, 252)*/
-/*rgb(250, 57, 57)*/
-/*rgb(3, 194, 3)*/
-
+/*Home*/
 .header {
     position: fixed;
     top: 0;
@@ -170,6 +167,7 @@ img:hover {
     width: 50px;
 }
 
+/*About Me*/
 .about{
     display: flex;
     justify-content: center;
@@ -233,6 +231,10 @@ img:hover {
     resize: none;
 }
 
+
+
+/*Contact*/
+/*
 .footer{
     position: relative;
     bottom: 0;
@@ -304,3 +306,4 @@ img:hover {
     text-align: center;
     padding: 15px;
 }
+*/
