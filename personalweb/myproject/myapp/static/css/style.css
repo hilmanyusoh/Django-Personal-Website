@@ -204,7 +204,9 @@ img:hover {
 /*Acadecmic Project*/
 /* Academic Projects Section */
 .project h2{
-    margin-bottom: 5rem;
+    text-align: center;
+    margin-top: 20px; 
+    font-size: 36px;
 }
 
 .project-container{
@@ -222,6 +224,23 @@ img:hover {
   margin: 20px;
 }
 
+.project-container .btn {
+    padding: 15px 28px;
+    background-color: rgb(3, 194, 3);
+    color: white;
+    border: 3px solid black;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgb(3, 194, 3);
+}
 
 /* Contact Form */
 /*
