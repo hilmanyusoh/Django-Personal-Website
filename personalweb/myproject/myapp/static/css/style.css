@@ -203,7 +203,7 @@ img:hover {
 
 /*Acadecmic Project*/
 /* Academic Projects Section */
-.project h2{
+.project h2 .heading{
     text-align: center;
     margin-top: 20px; 
     font-size: 36px;
