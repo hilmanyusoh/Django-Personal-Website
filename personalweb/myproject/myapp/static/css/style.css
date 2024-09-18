@@ -8,6 +8,10 @@
     list-style: none;
 }
 
+/* Login Section */
+
+
+
 /* Home Section */
 .header {
     position: fixed;
@@ -110,8 +114,8 @@ span {
 
 .btn-1 {
     padding: 15px 28px;
-    background-color: black;
-    color: white;
+    background-color: rgb(3, 194, 3);
+    color: black;
     border: 2px solid transparent;
     border-radius: 8px;
     font-size: 18px;
@@ -122,7 +126,7 @@ span {
 }
 
 .btn-1:hover {
-    background-color: white;
+    background-color:white ;
     color: black;
     border: 2px solid black;
 }
@@ -203,29 +207,50 @@ img:hover {
 
 /*Acadecmic Project*/
 /* Academic Projects Section */
-.project h2 .heading{
-    text-align: center;
-    margin-top: 20px; 
-    font-size: 36px;
+.project {
+    background-color: black;
+    padding: 50px 0;
 }
 
-.project-container{
+.project h2 {
+    color: white; /* Heading text color */
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px; /* Space between heading and project boxes */
+}
+
+.project-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; /* Align items from the top */
     flex-wrap: wrap;
     gap: 2rem;
 }
 
 .project-container .project-box {
-  background-color: lightgrey;
-  width: 300px;
-  padding: 50px;
-  margin: 20px;
+    background-color: lightgrey;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column; /* Make the content stack vertically */
+    justify-content: space-between; /* Ensure the button stays at the bottom */
+}
+
+.project-container .project-box h3 {
+    color: black;
+    margin-bottom: 15px;
+}
+
+.project-container .project-box p {
+    color: #333;
+    flex-grow: 1; /* Allows the paragraph to take up remaining space */
 }
 
 .project-container .btn {
-    padding: 15px 28px;
+    padding: 10px 28px;
     background-color: rgb(3, 194, 3);
     color: white;
     border: 3px solid black;
@@ -235,16 +260,27 @@ img:hover {
     font-weight: 600;
     transition: 0.3s ease;
     cursor: pointer;
+    text-align: center; /* Center align text within the button */
+    margin-top: 20px; /* Adds space between paragraph and button */
 }
 
-.btn:hover {
+.project-container .btn:hover {
     background-color: white;
     color: rgb(3, 194, 3);
 }
 
 /* Contact Form */
-/*
+.contact-form {
+    background-color: black;
+    padding: 50px 0;
+    display: flex; /* เพิ่ม flexbox */
+    justify-content: center; /* จัดให้อยู่ตรงกลางในแนวนอน */
+    align-items: center; /* จัดให้อยู่ตรงกลางในแนวตั้ง */
+    flex-direction: column; /* ให้คอนเทนต์เรียงในแนวตั้ง */
+}
+
 .contact-form h2 {
+    color: white;
     text-align: center;
     margin-top: 3em;
     margin-bottom: 1em;
@@ -260,7 +296,7 @@ img:hover {
 
 .contact-form form .input-box {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* จัดให้ input อยู่ตรงกลาง */
     flex-wrap: wrap;
 }
 
@@ -276,8 +312,9 @@ img:hover {
     resize: none;
 }
 
+
 /* Footer */
-/*
+
 .footer {
     position: relative;
     bottom: 0;
@@ -287,7 +324,7 @@ img:hover {
 }
 
 .footer .social {
-    text-align: center;
+    margin-left: 40px;
     padding-bottom: 25px;
     color: white;
 }
@@ -295,57 +332,11 @@ img:hover {
 .footer .social a {
     font-size: 24px;
     color: white;
-    border: 2px solid rgb(3, 194, 3);
     width: 40px;
     height: 40px;
     line-height: 38px;
     display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    margin: 0 8px;
-    box-shadow: inset 0 0 10px rgb(3, 194, 3), 0 0 10px rgb(3, 194, 3);
-    transition: 0.3s ease;
+  
 }
 
-.footer .social a:hover {
-    transform: scale(1.2) translateY(-10px);
-    color: rgb(3, 194, 3);
-    border: 2px solid rgb(3, 194, 3);
-}
 
-.footer ul {
-    margin-top: 0;
-    padding: 0;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 0;
-    text-align: center;
-}
-
-.footer ul li a {
-    color: white;
-    border-bottom: 3px solid transparent;
-    transition: 0.3s ease;
-}
-
-.footer ul li a:hover {
-    border-bottom: 3px solid rgb(3, 194, 3);
-}
-
-.footer ul li {
-    display: inline-block;
-    padding: 0 15px;
-}
-
-.footer .copyright {
-    margin-top: 15px;
-    text-align: center;
-    font-size: 12px;
-    color: white;
-}
-
-.footer p {
-    text-align: center;
-    padding: 15px;
-}
-*/
