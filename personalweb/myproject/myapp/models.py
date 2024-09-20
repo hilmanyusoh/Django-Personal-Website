@@ -6,4 +6,4 @@ class Person(models.Model):
     date = models.DateField()    # Field for storing date
 
     def __str__(self):
-        return self.name
+        return "ประวัติส่วนตัวของ"+ self.name
