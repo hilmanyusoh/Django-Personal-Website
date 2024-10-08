@@ -52,7 +52,7 @@ span {
 }
 
 .navbar a:hover,
-.navbar a.active {
+.navbar  {
     color: rgb(3, 194, 3);
     border-bottom: 3px solid rgb(3, 194, 3);
 }
@@ -308,7 +308,6 @@ img:hover {
     margin: 1rem 0;
     resize: none;
 }
-
 
 /* Footer */
 
