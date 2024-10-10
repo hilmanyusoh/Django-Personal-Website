@@ -54,7 +54,7 @@ span {
 .navbar a:hover,
 .navbar  {
     color: rgb(3, 194, 3);
-    border-bottom: 3px solid rgb(3, 194, 3);
+    /*border-bottom: 3px solid rgb(3, 194, 3)*/
 }
 
 .contact {
