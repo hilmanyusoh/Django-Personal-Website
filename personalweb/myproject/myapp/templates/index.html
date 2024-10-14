@@ -56,44 +56,26 @@
             <h2 class="heading">About <span>Me</span></h2>
             <h3>Data Science <span>and Analysis</span></h3>
             <p> My name is Hillman Yusoh. I am from Thailand. I live in Narathiwat, Mueang District, Bang Po Subdistrict. I am a 3rd year student in Data Science and Analytics at Fatoni University.</p>
-        <!-- <a href="#" class="btn-2">Read More</a> -->     
         </div>
     </section>
 
-     <!-- Section Academic_Project -->        
-     <section class="project" id="project">
+    <section id="academic-project" class="project">
         <h2 class="heading">Pro<span>ject</span></h2>
-
         <div class="project-container">
-            <div class="project-box">
-                <h3>Big Data Engineering with Python 2023</h3>
-                <p>This project involves connecting the database to Cassandra and feeding the Quran data into the database for analysis to find out how many words are in that Quran.</p>
-                <br>
-                <br>
-                <a href="https://github.com/hilmanyusoh/big-data-engineering-with-python-2023" class="btn">Read more</a>
-            </div>
-            <div class="project-box">
-                <h3>Django Personal Website</h3>
-                <p>It is a website that provides information or personal history of the website owner, including various projects that have made us know more deeply.</p>
-                <br>
-                <br>
-                <br>
-                <a href="https://github.com/hilmanyusoh/Django-Personal-Website" class="btn">Read more</a>
-            </div>
-            <div class="project-box">
-                <h3>Website about Checking Names</h3>
-                <p>This website is about checking names for students who want to check members or teachers. The purpose is to help in checking the names of students or members coming to study </p>
-                <br>
-                <a href="#" class="btn">Read more</a>
-            </div>
+            {% for project in academic_projects %}
+                <div class="project-box">
+                    <h3>{{ project.title }}</h3>
+                    <p>{{ project.description }}</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            {% empty %}
+                <p>No academic projects available at the moment.</p>
+            {% endfor %}
         </div>
     </section>
 
     
-
-
-    <!-- Contact Form Section (Commented Out) -->
-
+    <!-- Contact Section -->
     <section id="contact" class="contact-form">
         <h2 class="contact-me">Contact <span>Me</span></h2>
     
@@ -112,8 +94,7 @@
         </form>
     </section>
 
-    <!-- Footer Section (Commented Out) -->
-
+    <!-- Footer Section  -->
     <footer class="footer">
         <div class="social">
             <a href="https://www.instagram.com/hilman_yso/"><i class='bx bxl-instagram-alt'></i></a>

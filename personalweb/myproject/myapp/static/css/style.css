@@ -8,7 +8,6 @@
     list-style: none;
 }
 
-
 /* Home Section */
 .header {
     position: fixed;
@@ -54,7 +53,7 @@ span {
 .navbar a:hover,
 .navbar  {
     color: rgb(3, 194, 3);
-    /*border-bottom: 3px solid rgb(3, 194, 3)*/
+    /*border-bottom: 3px solid rgb(3, 194, 3)*/ /*เส้นขอบด้านล่าง*/
 }
 
 .contact {
@@ -151,9 +150,9 @@ span {
 }
 
 .img-box img {
-    width: 150%; /* Ensure the image fits within the container */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Optional: Add rounded corners */
+    width: 150%; 
+    height: auto;  
+    border-radius: 50%; 
 }
 
 img:hover {
@@ -203,23 +202,22 @@ img:hover {
 }
 
 /*Acadecmic Project*/
-/* Academic Projects Section */
 .project {
     background-color: black;
     padding: 50px 0;
 }
 
 .project h2 {
-    color: white; /* Heading text color */
+    color: white; 
     text-align: center;
     font-size: 36px;
-    margin-bottom: 40px; /* Space between heading and project boxes */
+    margin-bottom: 40px; 
 }
 
 .project-container {
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Align items from the top */
+    align-items: flex-start; 
     flex-wrap: wrap;
     gap: 2rem;
 }
@@ -232,8 +230,8 @@ img:hover {
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: flex;
-    flex-direction: column; /* Make the content stack vertically */
-    justify-content: space-between; /* Ensure the button stays at the bottom */
+    flex-direction: column; 
+    justify-content: space-between;
 }
 
 .project-container .project-box h3 {
@@ -243,7 +241,7 @@ img:hover {
 
 .project-container .project-box p {
     color: #333;
-    flex-grow: 1; /* Allows the paragraph to take up remaining space */
+    flex-grow: 1; 
 }
 
 .project-container .btn {
@@ -257,8 +255,8 @@ img:hover {
     font-weight: 600;
     transition: 0.3s ease;
     cursor: pointer;
-    text-align: center; /* Center align text within the button */
-    margin-top: 20px; /* Adds space between paragraph and button */
+    text-align: center; 
+    margin-top: 20px; 
 }
 
 .project-container .btn:hover {
@@ -266,14 +264,14 @@ img:hover {
     color: rgb(3, 194, 3);
 }
 
-/* Contact Form */
+/* Contact Section */
 .contact-form {
     background-color: black;
     padding: 50px 0;
-    display: flex; /* เพิ่ม flexbox */
-    justify-content: center; /* จัดให้อยู่ตรงกลางในแนวนอน */
-    align-items: center; /* จัดให้อยู่ตรงกลางในแนวตั้ง */
-    flex-direction: column; /* ให้คอนเทนต์เรียงในแนวตั้ง */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
 }
 
 .contact-form h2 {
@@ -293,7 +291,7 @@ img:hover {
 
 .contact-form form .input-box {
     display: flex;
-    justify-content: center; /* จัดให้ input อยู่ตรงกลาง */
+    justify-content: center; 
     flex-wrap: wrap;
 }
 
@@ -310,7 +308,6 @@ img:hover {
 }
 
 /* Footer */
-
 .footer {
     
     position: relative;
