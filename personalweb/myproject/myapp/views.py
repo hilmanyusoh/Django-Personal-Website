@@ -1,10 +1,9 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from .models import AcademicProject
 
-# Create your views here.
 def index(request):
-    return render(request,"index.html")
-
+    academic_projects = AcademicProject.objects.all().order_by('-date_posted')
+    return render(request, "index.html", {'academic_projects': academic_projects})
 
 
 
