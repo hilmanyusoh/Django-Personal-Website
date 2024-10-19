@@ -79,18 +79,16 @@
     <section id="contact" class="contact-form">
         <h2 class="contact-me">Contact <span>Me</span></h2>
     
-        <form action="#">
+        <form action="https://api.web3forms.com/submit" method="POST">
             <div class="input-box">
-                <input type="text" name="name" placeholder="Name" required>
-                <input type="text" name="LastName" placeholder="Last Name" required>
-            </div>
-
-            <div class="input-box">
+                <input type="hidden" name="access_key" value="79d45170-bc0e-42da-8c51-5110bfbf37fc">
+                <input type="text" name="name" placeholder="Your Name" required>
                 <input type="email" name="Email" placeholder="Email">
             </div>
 
             <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
             <input type="submit" value="Send Message" class="btn-1">
+            
         </form>
     </section>
 
