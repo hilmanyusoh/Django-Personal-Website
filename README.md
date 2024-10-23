@@ -5,8 +5,8 @@ This project is Hillman's personal portfolio website, showcasing his skills, pro
 
 ## Project Structure
 There will be index.html,style.css files
-'index.html': The main HTML file for the website, which includes the structure of the web page and content, etc.
-'style.css': CSS file for website design, such as colors, responsiveness, effects, etc.
+`index.html`: The main HTML file for the website, which includes the structure of the web page and content, etc.
+`style.css`: CSS file for website design, such as colors, responsiveness, effects, etc.
 
 ## Section Overview
 Home: Welcome message and a short introduction
@@ -29,4 +29,4 @@ Google Fonts: For font services as we want
 Font Awesome: For icons on websites
 
 ## Deployment
-To deploy this website on a server, ensure that all static files (HTML, CSS, JavaScript) are correctly referenced. If using Django, follow Django's deployment steps, such as setting up a 'static' directory.
+To deploy this website on a server, ensure that all static files (HTML, CSS, JavaScript) are correctly referenced. If using Django, follow Django's deployment steps, such as setting up a `static` directory.
